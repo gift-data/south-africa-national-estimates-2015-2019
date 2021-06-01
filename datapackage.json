@@ -1,0 +1,1050 @@
+{
+  "name": "south-africa-national-estimates-2015-2019",
+  "id": "MDEwOlJlcG9zaXRvcnkzNzI4OTMwNjU=",
+  "encoding": "utf_8",
+  "format": "csv",
+  "resources": [
+    {
+      "bytes": 23019029,
+      "hash": "b18dbe36233e43b78c37d033ea23a8e8082e893de0fa85099777bd1014f54cb2",
+      "format": "csv",
+      "schema": {
+        "fields": [
+          {
+            "title": "budgetphase",
+            "name": "budgetphase",
+            "slug": "budgetphase",
+            "type": "string",
+            "format": "default",
+            "columnType": "phase:id",
+            "conceptType": "phase",
+            "options": []
+          },
+          {
+            "title": "department",
+            "name": "department",
+            "slug": "department",
+            "type": "string",
+            "format": "default",
+            "columnType": "administrative-classification:generic:label",
+            "conceptType": "administrative-classification",
+            "options": []
+          },
+          {
+            "title": "economicclassification1",
+            "name": "economicclassification1",
+            "slug": "economicclassification1",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level1:code",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "economicclassification2",
+            "name": "economicclassification2",
+            "slug": "economicclassification2",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level2:code",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "economicclassification3",
+            "name": "economicclassification3",
+            "slug": "economicclassification3",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level3:code",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "economicclassification4",
+            "name": "economicclassification4",
+            "slug": "economicclassification4",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level4:code",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "financialyear",
+            "name": "financialyear",
+            "slug": "financialyear",
+            "type": "integer",
+            "format": "default",
+            "columnType": "date:fiscal-year",
+            "conceptType": "date",
+            "options": []
+          },
+          {
+            "title": "functiongroup1",
+            "name": "functiongroup1",
+            "slug": "functiongroup1",
+            "type": "string",
+            "format": "default",
+            "columnType": "functional-classification:generic:level1:code",
+            "conceptType": "functional-classification",
+            "options": []
+          },
+          {
+            "title": "programme",
+            "name": "programme",
+            "slug": "programme",
+            "type": "string",
+            "format": "default",
+            "columnType": "activity:generic:program:label",
+            "conceptType": "activity",
+            "options": []
+          },
+          {
+            "title": "prognumber",
+            "name": "prognumber",
+            "slug": "prognumber",
+            "type": "string",
+            "format": "default",
+            "columnType": "activity:generic:program:code",
+            "conceptType": "activity",
+            "options": []
+          },
+          {
+            "title": "subprogramme",
+            "name": "subprogramme",
+            "slug": "subprogramme",
+            "type": "string",
+            "format": "default",
+            "columnType": "activity:generic:subprogram:label",
+            "conceptType": "activity",
+            "options": []
+          },
+          {
+            "title": "subprognumber",
+            "name": "subprognumber",
+            "slug": "subprognumber",
+            "type": "string",
+            "format": "default",
+            "columnType": "activity:generic:subprogram:code",
+            "conceptType": "activity",
+            "options": []
+          },
+          {
+            "title": "value",
+            "name": "value",
+            "slug": "value",
+            "type": "number",
+            "format": "default",
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
+          },
+          {
+            "title": "votenumber",
+            "name": "votenumber",
+            "slug": "votenumber",
+            "type": "string",
+            "format": "default",
+            "columnType": "administrative-classification:generic:code",
+            "conceptType": "administrative-classification",
+            "options": []
+          },
+          {
+            "title": "amountkind",
+            "name": "amountkind",
+            "slug": "amountkind",
+            "type": "string",
+            "format": "default",
+            "columnType": "value-kind:code",
+            "conceptType": "value-kind",
+            "options": []
+          },
+          {
+            "title": "econtomicclassification5",
+            "name": "econtomicclassification5",
+            "slug": "econtomicclassification5",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level5:code",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "functiongroup2",
+            "name": "functiongroup2",
+            "slug": "functiongroup2",
+            "type": "string",
+            "format": "default",
+            "columnType": "functional-classification:generic:level2:code",
+            "conceptType": "functional-classification",
+            "options": []
+          },
+          {
+            "title": "government",
+            "name": "government",
+            "slug": "government",
+            "type": "string",
+            "format": "default",
+            "columnType": "geo-source:target:code",
+            "conceptType": "geo-source",
+            "options": []
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "encoding": "utf-8",
+      "mediatype": "text/csv",
+      "name": "budget-vs-actual-national__2015.csv",
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "\""
+      },
+      "path": "data/budget-vs-actual-national__2015.csv",
+      "sample": [
+        [
+          "budgetphase",
+          "department",
+          "economicclassification1",
+          "economicclassification2",
+          "economicclassification3",
+          "economicclassification4",
+          "financialyear",
+          "functiongroup1",
+          "programme",
+          "prognumber",
+          "subprogramme",
+          "subprognumber",
+          "value",
+          "votenumber",
+          "amountkind",
+          "econtomicclassification5",
+          "functiongroup2",
+          "government"
+        ],
+        [
+          "Main appropriation",
+          "Public Service and Administration",
+          "Capital",
+          "Payments for capital assets",
+          "Machinery and equipment",
+          "Other machinery and equipment",
+          "2015",
+          "General public services",
+          "Administration",
+          "1",
+          "Ministry",
+          "1",
+          "93000",
+          "10",
+          "Total",
+          "Empty",
+          "General public administration and fiscal affairs",
+          "South Africa"
+        ],
+        [
+          "Main appropriation",
+          "Public Service and Administration",
+          "Capital",
+          "Payments for capital assets",
+          "Machinery and equipment",
+          "Transport equipment",
+          "2015",
+          "General public services",
+          "Administration",
+          "1",
+          "Ministry",
+          "1",
+          "41000",
+          "10",
+          "Total",
+          "Empty",
+          "General public administration and fiscal affairs",
+          "South Africa"
+        ],
+        [
+          "Main appropriation",
+          "Public Service and Administration",
+          "Current",
+          "Current payments",
+          "Compensation of employees",
+          "Salaries and wages",
+          "2015",
+          "General public services",
+          "Administration",
+          "1",
+          "Ministry",
+          "1",
+          "24986000",
+          "10",
+          "Total",
+          "Empty",
+          "General public administration and fiscal affairs",
+          "South Africa"
+        ],
+        [
+          "Main appropriation",
+          "Public Service and Administration",
+          "Current",
+          "Current payments",
+          "Compensation of employees",
+          "Social contributions",
+          "2015",
+          "General public services",
+          "Administration",
+          "1",
+          "Ministry",
+          "1",
+          "1876000",
+          "10",
+          "Total",
+          "Empty",
+          "General public administration and fiscal affairs",
+          "South Africa"
+        ],
+        [
+          "Main appropriation",
+          "Public Service and Administration",
+          "Current",
+          "Current payments",
+          "Goods and services",
+          "Administrative fees",
+          "2015",
+          "General public services",
+          "Administration",
+          "1",
+          "Ministry",
+          "1",
+          "957000",
+          "10",
+          "Total",
+          "Empty",
+          "General public administration and fiscal affairs",
+          "South Africa"
+        ],
+        [
+          "Main appropriation",
+          "Public Service and Administration",
+          "Current",
+          "Current payments",
+          "Goods and services",
+          "Assets less than the capitalisation threshold",
+          "2015",
+          "General public services",
+          "Administration",
+          "1",
+          "Ministry",
+          "1",
+          "61000",
+          "10",
+          "Total",
+          "Empty",
+          "General public administration and fiscal affairs",
+          "South Africa"
+        ],
+        [
+          "Main appropriation",
+          "Public Service and Administration",
+          "Current",
+          "Current payments",
+          "Goods and services",
+          "Catering: Departmental activities",
+          "2015",
+          "General public services",
+          "Administration",
+          "1",
+          "Ministry",
+          "1",
+          "124000",
+          "10",
+          "Total",
+          "Empty",
+          "General public administration and fiscal affairs",
+          "South Africa"
+        ],
+        [
+          "Main appropriation",
+          "Public Service and Administration",
+          "Current",
+          "Current payments",
+          "Goods and services",
+          "Communication (G&S)",
+          "2015",
+          "General public services",
+          "Administration",
+          "1",
+          "Ministry",
+          "1",
+          "1091000",
+          "10",
+          "Total",
+          "Empty",
+          "General public administration and fiscal affairs",
+          "South Africa"
+        ],
+        [
+          "Main appropriation",
+          "Public Service and Administration",
+          "Current",
+          "Current payments",
+          "Goods and services",
+          "Computer services",
+          "2015",
+          "General public services",
+          "Administration",
+          "1",
+          "Ministry",
+          "1",
+          "66000",
+          "10",
+          "Total",
+          "Empty",
+          "General public administration and fiscal affairs",
+          "South Africa"
+        ],
+        [
+          "Main appropriation",
+          "Public Service and Administration",
+          "Current",
+          "Current payments",
+          "Goods and services",
+          "Consumable supplies",
+          "2015",
+          "General public services",
+          "Administration",
+          "1",
+          "Ministry",
+          "1",
+          "190000",
+          "10",
+          "Total",
+          "Empty",
+          "General public administration and fiscal affairs",
+          "South Africa"
+        ],
+        [
+          "Main appropriation",
+          "Public Service and Administration",
+          "Current",
+          "Current payments",
+          "Goods and services",
+          "Consumable: Stationery,printing and office supplies",
+          "2015",
+          "General public services",
+          "Administration",
+          "1",
+          "Ministry",
+          "1",
+          "289000",
+          "10",
+          "Total",
+          "Empty",
+          "General public administration and fiscal affairs",
+          "South Africa"
+        ],
+        [
+          "Main appropriation",
+          "Public Service and Administration",
+          "Current",
+          "Current payments",
+          "Goods and services",
+          "Contractors",
+          "2015",
+          "General public services",
+          "Administration",
+          "1",
+          "Ministry",
+          "1",
+          "5000",
+          "10",
+          "Total",
+          "Empty",
+          "General public administration and fiscal affairs",
+          "South Africa"
+        ],
+        [
+          "Main appropriation",
+          "Public Service and Administration",
+          "Current",
+          "Current payments",
+          "Goods and services",
+          "Entertainment",
+          "2015",
+          "General public services",
+          "Administration",
+          "1",
+          "Ministry",
+          "1",
+          "68000",
+          "10",
+          "Total",
+          "Empty",
+          "General public administration and fiscal affairs",
+          "South Africa"
+        ],
+        [
+          "Main appropriation",
+          "Public Service and Administration",
+          "Current",
+          "Current payments",
+          "Goods and services",
+          "Fleet services (including government motor transport)",
+          "2015",
+          "General public services",
+          "Administration",
+          "1",
+          "Ministry",
+          "1",
+          "265000",
+          "10",
+          "Total",
+          "Empty",
+          "General public administration and fiscal affairs",
+          "South Africa"
+        ],
+        [
+          "Main appropriation",
+          "Public Service and Administration",
+          "Current",
+          "Current payments",
+          "Goods and services",
+          "Operating payments",
+          "2015",
+          "General public services",
+          "Administration",
+          "1",
+          "Ministry",
+          "1",
+          "227000",
+          "10",
+          "Total",
+          "Empty",
+          "General public administration and fiscal affairs",
+          "South Africa"
+        ],
+        [
+          "Main appropriation",
+          "Public Service and Administration",
+          "Current",
+          "Current payments",
+          "Goods and services",
+          "Rental and hiring",
+          "2015",
+          "General public services",
+          "Administration",
+          "1",
+          "Ministry",
+          "1",
+          "70000",
+          "10",
+          "Total",
+          "Empty",
+          "General public administration and fiscal affairs",
+          "South Africa"
+        ],
+        [
+          "Main appropriation",
+          "Public Service and Administration",
+          "Current",
+          "Current payments",
+          "Goods and services",
+          "Training and development",
+          "2015",
+          "General public services",
+          "Administration",
+          "1",
+          "Ministry",
+          "1",
+          "252000",
+          "10",
+          "Total",
+          "Empty",
+          "General public administration and fiscal affairs",
+          "South Africa"
+        ],
+        [
+          "Main appropriation",
+          "Public Service and Administration",
+          "Current",
+          "Current payments",
+          "Goods and services",
+          "Travel and subsistence",
+          "2015",
+          "General public services",
+          "Administration",
+          "1",
+          "Ministry",
+          "1",
+          "11966000",
+          "10",
+          "Total",
+          "Empty",
+          "General public administration and fiscal affairs",
+          "South Africa"
+        ],
+        [
+          "Main appropriation",
+          "Public Service and Administration",
+          "Current",
+          "Current payments",
+          "Goods and services",
+          "Venues and facilities",
+          "2015",
+          "General public services",
+          "Administration",
+          "1",
+          "Ministry",
+          "1",
+          "240000",
+          "10",
+          "Total",
+          "Empty",
+          "General public administration and fiscal affairs",
+          "South Africa"
+        ],
+        [
+          "Main appropriation",
+          "Public Service and Administration",
+          "Current",
+          "Transfers and subsidies",
+          "Departmental agencies and accounts",
+          "Departmental agencies (non-business entities)",
+          "2015",
+          "General public services",
+          "Administration",
+          "1",
+          "Ministry",
+          "1",
+          "18000",
+          "10",
+          "Total",
+          "Empty",
+          "General public administration and fiscal affairs",
+          "South Africa"
+        ],
+        [
+          "Main appropriation",
+          "Public Service and Administration",
+          "Capital",
+          "Payments for capital assets",
+          "Machinery and equipment",
+          "Other machinery and equipment",
+          "2015",
+          "General public services",
+          "Administration",
+          "1",
+          "Departmental Management",
+          "2",
+          "2000",
+          "10",
+          "Total",
+          "Empty",
+          "General public administration and fiscal affairs",
+          "South Africa"
+        ],
+        [
+          "Main appropriation",
+          "Public Service and Administration",
+          "Capital",
+          "Payments for capital assets",
+          "Machinery and equipment",
+          "Transport equipment",
+          "2015",
+          "General public services",
+          "Administration",
+          "1",
+          "Departmental Management",
+          "2",
+          "1000",
+          "10",
+          "Total",
+          "Empty",
+          "General public administration and fiscal affairs",
+          "South Africa"
+        ],
+        [
+          "Main appropriation",
+          "Public Service and Administration",
+          "Current",
+          "Current payments",
+          "Compensation of employees",
+          "Salaries and wages",
+          "2015",
+          "General public services",
+          "Administration",
+          "1",
+          "Departmental Management",
+          "2",
+          "1979000",
+          "10",
+          "Total",
+          "Empty",
+          "General public administration and fiscal affairs",
+          "South Africa"
+        ],
+        [
+          "Main appropriation",
+          "Public Service and Administration",
+          "Current",
+          "Current payments",
+          "Compensation of employees",
+          "Social contributions",
+          "2015",
+          "General public services",
+          "Administration",
+          "1",
+          "Departmental Management",
+          "2",
+          "149000",
+          "10",
+          "Total",
+          "Empty",
+          "General public administration and fiscal affairs",
+          "South Africa"
+        ],
+        [
+          "Main appropriation",
+          "Public Service and Administration",
+          "Current",
+          "Current payments",
+          "Goods and services",
+          "Administrative fees",
+          "2015",
+          "General public services",
+          "Administration",
+          "1",
+          "Departmental Management",
+          "2",
+          "36000",
+          "10",
+          "Total",
+          "Empty",
+          "General public administration and fiscal affairs",
+          "South Africa"
+        ],
+        [
+          "Main appropriation",
+          "Public Service and Administration",
+          "Current",
+          "Current payments",
+          "Goods and services",
+          "Advertising",
+          "2015",
+          "General public services",
+          "Administration",
+          "1",
+          "Departmental Management",
+          "2",
+          "19000",
+          "10",
+          "Total",
+          "Empty",
+          "General public administration and fiscal affairs",
+          "South Africa"
+        ],
+        [
+          "Main appropriation",
+          "Public Service and Administration",
+          "Current",
+          "Current payments",
+          "Goods and services",
+          "Catering: Departmental activities",
+          "2015",
+          "General public services",
+          "Administration",
+          "1",
+          "Departmental Management",
+          "2",
+          "79000",
+          "10",
+          "Total",
+          "Empty",
+          "General public administration and fiscal affairs",
+          "South Africa"
+        ],
+        [
+          "Main appropriation",
+          "Public Service and Administration",
+          "Current",
+          "Current payments",
+          "Goods and services",
+          "Communication (G&S)",
+          "2015",
+          "General public services",
+          "Administration",
+          "1",
+          "Departmental Management",
+          "2",
+          "45000",
+          "10",
+          "Total",
+          "Empty",
+          "General public administration and fiscal affairs",
+          "South Africa"
+        ],
+        [
+          "Main appropriation",
+          "Public Service and Administration",
+          "Current",
+          "Current payments",
+          "Goods and services",
+          "Computer services",
+          "2015",
+          "General public services",
+          "Administration",
+          "1",
+          "Departmental Management",
+          "2",
+          "3000",
+          "10",
+          "Total",
+          "Empty",
+          "General public administration and fiscal affairs",
+          "South Africa"
+        ]
+      ],
+      "model": {
+        "dimensions": {
+          "phase": {
+            "dimensionType": "other",
+            "primaryKey": [
+              "budgetphase"
+            ],
+            "attributes": {
+              "budgetphase": {
+                "source": "budgetphase",
+                "title": "budgetphase"
+              }
+            }
+          },
+          "administrative-classification": {
+            "dimensionType": "classification",
+            "primaryKey": [
+              "votenumber"
+            ],
+            "attributes": {
+              "department": {
+                "source": "department",
+                "title": "department",
+                "labelfor": "votenumber"
+              },
+              "votenumber": {
+                "source": "votenumber",
+                "title": "votenumber"
+              }
+            },
+            "classificationType": "administrative"
+          },
+          "economic-classification": {
+            "dimensionType": "classification",
+            "primaryKey": [
+              "economicclassification1",
+              "economicclassification2",
+              "economicclassification3",
+              "economicclassification4",
+              "econtomicclassification5"
+            ],
+            "attributes": {
+              "economicclassification1": {
+                "source": "economicclassification1",
+                "title": "economicclassification1"
+              },
+              "economicclassification2": {
+                "source": "economicclassification2",
+                "title": "economicclassification2",
+                "parent": "economicclassification1"
+              },
+              "economicclassification3": {
+                "source": "economicclassification3",
+                "title": "economicclassification3",
+                "parent": "economicclassification2"
+              },
+              "economicclassification4": {
+                "source": "economicclassification4",
+                "title": "economicclassification4",
+                "parent": "economicclassification3"
+              },
+              "econtomicclassification5": {
+                "source": "econtomicclassification5",
+                "title": "econtomicclassification5",
+                "parent": "economicclassification4"
+              }
+            },
+            "classificationType": "economic"
+          },
+          "date": {
+            "dimensionType": "datetime",
+            "primaryKey": [
+              "financialyear"
+            ],
+            "attributes": {
+              "financialyear": {
+                "source": "financialyear",
+                "title": "financialyear"
+              }
+            }
+          },
+          "functional-classification": {
+            "dimensionType": "classification",
+            "primaryKey": [
+              "functiongroup1",
+              "functiongroup2"
+            ],
+            "attributes": {
+              "functiongroup1": {
+                "source": "functiongroup1",
+                "title": "functiongroup1"
+              },
+              "functiongroup2": {
+                "source": "functiongroup2",
+                "title": "functiongroup2",
+                "parent": "functiongroup1"
+              }
+            },
+            "classificationType": "functional"
+          },
+          "activity": {
+            "dimensionType": "activity",
+            "primaryKey": [
+              "prognumber",
+              "subprognumber"
+            ],
+            "attributes": {
+              "programme": {
+                "source": "programme",
+                "title": "programme",
+                "labelfor": "prognumber"
+              },
+              "prognumber": {
+                "source": "prognumber",
+                "title": "prognumber"
+              },
+              "subprogramme": {
+                "source": "subprogramme",
+                "title": "subprogramme",
+                "labelfor": "subprognumber"
+              },
+              "subprognumber": {
+                "source": "subprognumber",
+                "title": "subprognumber",
+                "parent": "prognumber"
+              }
+            }
+          },
+          "value-kind": {
+            "dimensionType": "other",
+            "primaryKey": [
+              "amountkind"
+            ],
+            "attributes": {
+              "amountkind": {
+                "source": "amountkind",
+                "title": "amountkind"
+              }
+            }
+          },
+          "geo-source": {
+            "dimensionType": "location",
+            "primaryKey": [
+              "government"
+            ],
+            "attributes": {
+              "government": {
+                "source": "government",
+                "title": "government"
+              }
+            }
+          }
+        },
+        "measures": {
+          "value": {
+            "source": "value",
+            "title": "value"
+          }
+        }
+      }
+    }
+  ],
+  "title": "South Africa National Estimates 2015-2019",
+  "description": "South Africa National Estimates 2015-2019",
+  "tags": [
+    "national"
+  ],
+  "govt_level": "National",
+  "pub_institutional_name": "South Africa",
+  "continent": "Africa",
+  "country": "South Africa",
+  "periodicity": "Yearly",
+  "years_included": [
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019"
+  ],
+  "start_date": "2015-01-01",
+  "end_date": "2019-12-31"
+}
