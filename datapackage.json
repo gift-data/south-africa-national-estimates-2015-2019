@@ -5121,12 +5121,12 @@
     }
   ],
   "title": "South Africa National Estimates 2015-2019",
-  "description": "South Africa National Estimates 2015-2019",
+  "description": "This dataset includes expenditure data as published in the Estimates of National Expenditure. Departmental expenditure data in previous financial years have been aligned with the budget and programme structures of departments as they are structured in the current Medium Term Expenditure Framework.",
   "tags": [
     "national"
   ],
   "govt_level": "National",
-  "pub_institutional_name": "South Africa",
+  "pub_institutional_name": "National Treasury",
   "continent": "Africa",
   "country": "South Africa",
   "periodicity": "Yearly",
@@ -5135,8 +5135,17 @@
     "2016",
     "2017",
     "2018",
-    "2019"
+    "2019",
+    "2020"
   ],
   "start_date": "2015-01-01",
-  "end_date": "2019-12-31"
+  "end_date": "2020-12-31",
+  "createdAt": "2021-06-01T16:20:44Z",
+  "updatedAt": "2021-06-01T16:26:43Z",
+  "image": "https://civictech.africa/wp-content/uploads/2020/09/Vuleka-Mali-logo-500X360px.png",
+  "budget_stage": [
+    "Enacted"
+  ],
+  "author_website": "https://vulekamali.gov.za/",
+  "author_email": "feedback@vulekamali.gov.za"
 }
